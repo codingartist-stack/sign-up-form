@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    margin: 0;
+}
+
+input {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#palmleaves {
+    width: 33vw; 
+    height: 100vh;
+    object-fit: cover;
+}
+
+#odinlogo-container {
+    display: flex;
+}
+
+#odin_logo {
+    width: 100px;
+}
+
+#formContainer {
+    margin: 0;
+}
+
+form {
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    padding: 15px;
+}
