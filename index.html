@@ -8,40 +8,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="images">
+<div id="imagesContainer">
     <img src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="palm leaves - Photo by Halie West on Unsplash" id="palmleaves">
     <div id="odinlogo-container"><img src="images/odin-lined.png" alt="Odin logo" id="odin_logo"> <h1 id="odin_logo_text">ODIN</h1></div>
+    <p id="photographerInfo">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
 </div>
 
     <div id="formContainer">
-        <h3>
-            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-            Sign up now to get started.
-        </h3>
-        <h3>You know you want to.</h3>
-        <form action="" method="get">
+        <div id="formCation">
+            <h3>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up <span class="italicSpan">now</span> to get started.
+            </h3>
+            <h3>You <span class="italicSpan">know</span> you want to.</h3>
+        </div>
+        <div id="formInput">
             <h3>Let's do this!</h3>
-            <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="firstName">
+            <form action="" method="get">
+            
+                <div>
+                    <label for="firstName">First Name</label> <br>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
 
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName">
+                <div>
+                    <label for="lastName">Last Name</label> <br>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
 
-            <label for="email">email</label>
-            <input type="text" name="email" id="email">
-
-            <label for="phoneNumber">phone number</label>
-            <input type="text" name="phoneNumber" id="phoneNumber">
-
-            <label for="password">password</label>
-            <input type="text" name="password" id="password">
-
-            <label for="confirmpassword">confirm password</label>
-            <input type="text" name="confirmpassword" id="confirmpassword">
-        </form>
+                <div>
+                    <label for="email">email</label> <br>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="phoneNumber">phone number</label> <br>
+                    <input type="text" name="phoneNumber" id="phoneNumber">
+                </div>
+                <div>
+                    <label for="password">password</label> <br>
+                    <input type="text" name="password" id="password">
+                </div>
+                <div>
+                    <label for="confirmpassword">confirm password</label> <br>
+                    <input type="text" name="confirmpassword" id="confirmpassword">
+                </div>
+            </form>
+        </div>
 <br>
-        <button>Create Account</button>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <div id="createOrLogin">
+            <button>Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
     </div>
     
 </body>

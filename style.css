@@ -5,11 +5,33 @@ body {
     margin: 0;
 }
 
+a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.italicSpan {
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
 input {
-    border: 2px solid #000;
+    border: 2px solid #E5E7EB;
     margin-bottom: 15px;
     padding: 5px;
     border-radius: 5px;
+    width: 250px;
+}
+
+#imagesContainer {
+    position: relative;
+    text-align: center;
 }
 
 #palmleaves {
@@ -20,18 +42,80 @@ input {
 
 #odinlogo-container {
     display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 150px;
+    width: 33vw;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+#photographerInfo {
+    position: absolute;
+    bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: .7rem;
+    width: 33vw;
+    justify-content: center;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.5)
 }
 
 #odin_logo {
     width: 100px;
+    padding: 10px;
+}
+
+#odin_logo_text {
+    color: white;
+
+}
+
+#formCation {
+    padding: 50px;
 }
 
 #formContainer {
     margin: 0;
+    height: 30vh;
+    
+}
+
+#formInput {
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(136, 136, 136);
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
 }
 
 form {
-    background-color: white;
-    box-shadow: 5px 5px 10px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 30px;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .2rem;
+}
+
+button {
+    background-color: #596D48;
+    border-radius: 5px;
+    border: none;
     padding: 15px;
+    color: white;
+    width: 200px;
+    font-size: 1rem;
+}
+
+#createOrLogin {
+    padding-left: 50px;
+    padding-top: 20px;
 }
