@@ -6,6 +6,7 @@ function checkPass(e) {
     if (password.value === confirmPass.value) {
         password.style.borderColor = "green"
         confirmPass.style.borderColor = "green"
+        error.textContent = ""
     } else {
         password.style.borderColor = "red"
         confirmPass.style.borderColor = "red"
