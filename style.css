@@ -109,6 +109,10 @@ input {
     font-size: 1rem;
 }
 
+input:invalid {
+    border-color: red;
+}
+
 button {
     background-color: #596D48;
     border-radius: 5px;
